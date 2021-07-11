@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Project</title>
 </head>
 <body>
-     
+     <!-- Nav bar-->
+     <header>
+         <nav class = "navbar">
+            <div class = "navbar__brand"> <!--BEM naming standards-->
+                <img class="navbar__logo" src="./assets/logo.png" alt="logo"/>
+            </div>
+            <div class="navbar__nav_items">
+                <button class="nav__item button__primary">Order food</button>
+            </div>
+         </nav>
+     </header>
+     <!-- hero section-->
+     <main class="container">
+        <section class="hero__container">
+            <div class="hero__image__container">
+                <img class = "hero__image" src="./assets/hero.jpg"/>
+
+            </div>
+            <div class="hero__description">
+                <h1 class="hero__text">Order food from restaurants near you.</h1>
+                <button class="button__primary">Order now</button>
+            </div>
+
+        </section>
+     </main>
 </body>
 </html>
