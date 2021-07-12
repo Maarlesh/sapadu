@@ -134,6 +134,66 @@
     width: 120%;
     height: 200px;
   }
+  /*other*/
+  .other{
+    margin-top: 40px;
+    margin-bottom:100px;
+  }
+  .other__summa{
+    display: flex;
+    justify-content: flex-start;
+    gap:25px;
+  }
+  .other__email{
+    margin-top: 10px;
+    margin-left: 550px;
+   
+  }
+  .other__text{
+    border-color:blue;
+    border-radius: 4px; 
+    padding:4px 25px 4px 4px;
+
+  }
+  .other__button{
+    
+  }
+  .motivation_image{
+    background-image: url("./assets/marble-dining-table-set.jpg");
+    height:400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+  }
+  .motivation__text{
+    padding-top: 200px;
+  }
+  /* footer */
+  .footer__space{
+    
+    
+  }
+  .footer__image{
+    margin:40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    background-image: linear-gradient(to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+    );
+    border-radius: 5px;
+    width:100%;
+    gap: 300px;
+  }
+  .footer__logo{
+  }
+  .footer__logo__image{
+    width:300px;
+  }
   
   @media (min-width: 768px) {
     .navbar {
